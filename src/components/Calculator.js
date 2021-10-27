@@ -13,25 +13,25 @@ class Calculator extends React.Component {
             <div className="wrapper">
                 <div className="result">{this.state.result}</div>
                 <div className="buttons-container">
-                    <div className="button">AC</div>
-                    <div className="button">+/-</div>
-                    <div className="button">%</div>
-                    <div className="button sign">&divide;</div>
-                    <div className="button">7</div>
-                    <div className="button">8</div>
-                    <div className="button">9</div>
-                    <div className="button sign">x</div>
-                    <div className="button">4</div>
-                    <div className="button">5</div>
-                    <div className="button">6</div>
-                    <div className="button sign">-</div>
-                    <div className="button">1</div>
-                    <div className="button">2</div>
-                    <div className="button">3</div>
-                    <div className="button sign">+</div>
-                    <div className="button zero">0</div>
-                    <div className="button">.</div>
-                    <div className="button">=</div>
+                    <button class="button">AC</button>
+                    <button class="button">+/-</button>
+                    <button class="button">%</button>
+                    <button class="button sign">&divide;</button>
+                    <button class="button">7</button>
+                    <button class="button">8</button>
+                    <button class="button">9</button>
+                    <button class="button sign">x</button>
+                    <button class="button">4</button>
+                    <button class="button">5</button>
+                    <button class="button">6</button>
+                    <button class="button sign">-</button>
+                    <button class="button">1</button>
+                    <button class="button">2</button>
+                    <button class="button">3</button>
+                    <button class="button sign">+</button>
+                    <button class="button zero">0</button>
+                    <button class="button">.</button>
+                    <button class="button">=</button>
                 </div>
             </div>
     );

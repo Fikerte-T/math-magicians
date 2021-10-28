@@ -2,11 +2,12 @@
 
 # Math Magicians
 
-> This is the first milestone of the project to setup a React application using React documentation.
+> Math magicians is a SPA (single page application) created with react. It uses components to display the UI and to implement the math logic. 
+
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+
 
 ## Built With
 

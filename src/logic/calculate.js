@@ -1,4 +1,4 @@
-import operate from './operate';
+import operate from './operate.js';
 
 function isNumber(item) {
   return !!item.match(/[0-9]+/);
@@ -105,7 +105,6 @@ export default function calculate(obj, buttonName) {
     if (obj.total && !obj.next) {
       return { ...obj, operation: buttonName };
     }
-
     return {
       total: operate(obj.total, obj.next, obj.operation),
       next: null,

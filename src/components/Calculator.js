@@ -21,8 +21,8 @@ const Calculator = () => {
     updateStates(obj);
   };
   return (
-          <div className="calc-page">
-              <h3 className="calc-title">Let's do some Math!</h3>
+          <div className="page calc-page">
+              <h2 className="calc-title">Let's do some Math!</h2>
                 <div className="wrapper">
                   <div className="result">{result || '0'}</div>
                   <div className="buttons-container">

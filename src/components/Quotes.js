@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
-const Quotes = () => {
-    return(
-        <blockquote>Mathematics is not about numbers, equationsm computations, or algorithms:
-            it is about understanding. - William Paul Thurson
-        </blockquote>
-    )
-}
+const Quotes = () => (
+      <div className="quote-page">
+            <blockquote>Mathematics is not about numbers, equations, computations, or algorithms:
+            it is about understanding. - <span className="author">William Paul Thurson</span>
+            </blockquote>
+      </div>
+);
 
 export default Quotes;

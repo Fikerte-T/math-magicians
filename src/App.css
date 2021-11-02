@@ -25,7 +25,6 @@ body {
 .nav-bar li {
   list-style: none;
   padding: 25px;
-
 }
 
 .link {
@@ -37,6 +36,7 @@ body {
   color: #ff8266;
   text-decoration: none;
 }
+
 .logo {
   color: #ff8266;
   line-height: 30px;
@@ -54,7 +54,7 @@ body {
 }
 
 .home-container {
-   width: 45%;
+  width: 45%;
   margin: 14vh auto;
 }
 

@@ -1,10 +1,9 @@
 import './App.css';
-// import AppContainer from './components/AppContainer';
 import { Route, Switch } from 'react-router-dom';
 import Calculator from './components/Calculator.js';
-import Quotes from './components/Quotes';
-import Home from './components/Home';
-import Navbar from './components/Navbar';
+import Quotes from './components/Quotes.js';
+import Home from './components/Home.js';
+import Navbar from './components/Navbar.js';
 
 function App() {
   return (

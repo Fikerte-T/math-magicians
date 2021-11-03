@@ -38,14 +38,13 @@ describe('calculator displays the correct result', () => {
     });
   });
   test('division by 0 returns a message', () => {
-      const result = operate('5', '0', '÷');
-      expect(result).toBe("Can't divide by 0.");
+    const result = operate('5', '0', '÷');
+    expect(result).toBe("Can't divide by 0.");
   });
 
   test('any other operator throws an error message', () => {
-      expect(() =>{
-        operate('5', '0', '/')
-      }).toThrow("Unknown operation '/'");
-   
+    expect(() => {
+      operate('5', '0', '/');
+    }).toThrow("Unknown operation '/'");
   });
 });

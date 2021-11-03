@@ -21,7 +21,6 @@ const Calculator = () => {
   const clickHandler = (state, bName) => {
     const obj = calculate(state, bName);
     updateStates(obj);
-    console.log(obj);
   };
   return (
           <div className="page calc-page">

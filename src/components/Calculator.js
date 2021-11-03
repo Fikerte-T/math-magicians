@@ -21,30 +21,33 @@ const Calculator = () => {
     updateStates(obj);
   };
   return (
-            <div className="wrapper">
-                <div className="result">{result || '0'}</div>
-                <div className="buttons-container">
-                    <button name="AC" onClick = {(e) => clickHandler(state, e.target.name)} className="button">AC</button>
-                    <button name="+/-" onClick = {(e) => clickHandler(state, e.target.name)} className="button">+/-</button>
-                    <button name="%" onClick = {(e) => clickHandler(state, e.target.name)} className="button">%</button>
-                    <button name="÷" onClick = {(e) => clickHandler(state, e.target.name)} className="button sign">÷</button>
-                    <button name="7" onClick = {(e) => clickHandler(state, e.target.name)} className="button">7</button>
-                    <button name="8" onClick = {(e) => clickHandler(state, e.target.name)} className="button">8</button>
-                    <button name="9" onClick = {(e) => clickHandler(state, e.target.name)} className="button">9</button>
-                    <button name="x" onClick = {(e) => clickHandler(state, e.target.name)} className="button sign">x</button>
-                    <button name="4" onClick = {(e) => clickHandler(state, e.target.name)} className="button">4</button>
-                    <button name="5" onClick = {(e) => clickHandler(state, e.target.name)} className="button">5</button>
-                    <button name="6" onClick = {(e) => clickHandler(state, e.target.name)} className="button">6</button>
-                    <button name="-" onClick = {(e) => clickHandler(state, e.target.name)} className="button sign">-</button>
-                    <button name="1" onClick = {(e) => clickHandler(state, e.target.name)} className="button">1</button>
-                    <button name="2" onClick = {(e) => clickHandler(state, e.target.name)} className="button">2</button>
-                    <button name="3" onClick = {(e) => clickHandler(state, e.target.name)} className="button">3</button>
-                    <button name="+" onClick = {(e) => clickHandler(state, e.target.name)} className="button sign">+</button>
-                    <button name="0" onClick = {(e) => clickHandler(state, e.target.name)} className="button zero">0</button>
-                    <button name="." onClick = {(e) => clickHandler(state, e.target.name)} className="button">.</button>
-                    <button name="=" onClick = {(e) => clickHandler(state, e.target.name)} className="button">=</button>
+          <div className="page calc-page">
+              <h2 className="calc-title">Let's do some Math!</h2>
+                <div className="wrapper">
+                  <div className="result">{result || '0'}</div>
+                  <div className="buttons-container">
+                      <button name="AC" onClick = {(e) => clickHandler(state, e.target.name)} className="button">AC</button>
+                      <button name="+/-" onClick = {(e) => clickHandler(state, e.target.name)} className="button">+/-</button>
+                      <button name="%" onClick = {(e) => clickHandler(state, e.target.name)} className="button">%</button>
+                      <button name="÷" onClick = {(e) => clickHandler(state, e.target.name)} className="button sign">÷</button>
+                      <button name="7" onClick = {(e) => clickHandler(state, e.target.name)} className="button">7</button>
+                      <button name="8" onClick = {(e) => clickHandler(state, e.target.name)} className="button">8</button>
+                      <button name="9" onClick = {(e) => clickHandler(state, e.target.name)} className="button">9</button>
+                      <button name="x" onClick = {(e) => clickHandler(state, e.target.name)} className="button sign">x</button>
+                      <button name="4" onClick = {(e) => clickHandler(state, e.target.name)} className="button">4</button>
+                      <button name="5" onClick = {(e) => clickHandler(state, e.target.name)} className="button">5</button>
+                      <button name="6" onClick = {(e) => clickHandler(state, e.target.name)} className="button">6</button>
+                      <button name="-" onClick = {(e) => clickHandler(state, e.target.name)} className="button sign">-</button>
+                      <button name="1" onClick = {(e) => clickHandler(state, e.target.name)} className="button">1</button>
+                      <button name="2" onClick = {(e) => clickHandler(state, e.target.name)} className="button">2</button>
+                      <button name="3" onClick = {(e) => clickHandler(state, e.target.name)} className="button">3</button>
+                      <button name="+" onClick = {(e) => clickHandler(state, e.target.name)} className="button sign">+</button>
+                      <button name="0" onClick = {(e) => clickHandler(state, e.target.name)} className="button zero">0</button>
+                      <button name="." onClick = {(e) => clickHandler(state, e.target.name)} className="button">.</button>
+                      <button name="=" onClick = {(e) => clickHandler(state, e.target.name)} className="button">=</button>
+                  </div>
                 </div>
-            </div>
+          </div>
   );
 };
 

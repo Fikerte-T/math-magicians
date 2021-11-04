@@ -3,11 +3,13 @@ import calculate from '../logic/calculate.js';
 
 const Calculator = () => {
   const [state, setState] = useState({ total: '', next: '', operation: '' });
+
   const updateStates = (newResult) => {
     setState((prevState) => ({
       ...prevState, total: newResult.total, next: newResult.next, operation: newResult.operation,
     }));
   };
+
   const { next, total, operation } = state;
   let result = '0';
   if (total) {

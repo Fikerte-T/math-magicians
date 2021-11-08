@@ -21,7 +21,8 @@ Test
 ## Live Demo
 
 [Heroku](https://reactapp-math-magicians.herokuapp.com/)
-[Netlify](https://frosty-bartik-34c6a0.netlify.app/calculator)
+
+[Netlify](https://frosty-bartik-34c6a0.netlify.app/)
 
 
 ## Getting Started
